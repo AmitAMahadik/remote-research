@@ -9,7 +9,7 @@ PAPER_DIR = "papers"
 #PAPER_DIR = os.path.join(BASE_DIR, "papers")
 
 # Initialize FastMCP server
-mcp = FastMCP("research", port=8001) #added port to deploy on Render
+mcp = FastMCP("research", host="0.0.0.0", port=8001) #added host & port to deploy on Render
 
 @mcp.tool()
 def search_papers(topic: str, max_results: int = 5) -> List[str]:
@@ -193,9 +193,5 @@ Please present both detailed information about each paper and a high-level synth
 if __name__ == "__main__":
     import os
 
-    # Render sets a PORT environment variable
-    port = int(os.environ.get("PORT", 8001))
-
     # Initialize and run the server
-    # Bind to 0.0.0.0 so the Render health checks can reach it
-    mcp.run(transport="sse", host="0.0.0.0", port=port) #stdio
+    mcp.run(transport='sse') #stdio
