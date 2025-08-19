@@ -4,12 +4,12 @@ import os
 from typing import List
 from mcp.server.fastmcp import FastMCP
 
-#PAPER_DIR = "papers"
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-PAPER_DIR = os.path.join(BASE_DIR, "papers")
+PAPER_DIR = "papers"
+#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#PAPER_DIR = os.path.join(BASE_DIR, "papers")
 
 # Initialize FastMCP server
-mcp = FastMCP("research")
+mcp = FastMCP("research", port=8001) #added port to deploy on Render
 
 @mcp.tool()
 def search_papers(topic: str, max_results: int = 5) -> List[str]:
@@ -192,4 +192,4 @@ Please present both detailed information about each paper and a high-level synth
 
 if __name__ == "__main__":
     # Initialize and run the server
-    mcp.run(transport='stdio')
+    mcp.run(transport='sse') #stdio
