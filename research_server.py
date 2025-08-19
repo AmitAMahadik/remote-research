@@ -191,5 +191,11 @@ Follow these instructions:
 Please present both detailed information about each paper and a high-level synthesis of the research landscape in {topic}."""
 
 if __name__ == "__main__":
+    import os
+
+    # Render sets a PORT environment variable
+    port = int(os.environ.get("PORT", 8001))
+
     # Initialize and run the server
-    mcp.run(transport='sse') #stdio
+    # Bind to 0.0.0.0 so the Render health checks can reach it
+    mcp.run(transport="sse", host="0.0.0.0", port=port) #stdio
