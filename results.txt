@@ -1,0 +1,33 @@
+# Exploration of Agentic LLMs: Research Summary
+
+## Key Term Identified
+While exploring deeplearning.ai's website, I identified "Agentic LLMs" as a significant emerging topic in artificial intelligence. The website mentioned "Open Agentic LLMs Proliferate" as one of the current trends in AI development.
+
+## What are Agentic LLMs?
+Agentic LLMs (Large Language Models) are AI systems designed to act autonomously, performing tasks and interacting with their environment with minimal human supervision. They represent an evolution beyond standard LLMs by incorporating the ability to plan, reason, and execute actions based on context and instructions.
+
+## Research Papers on Agentic LLMs
+
+### Paper 1: "Control at Stake: Evaluating the Security Landscape of LLM-Driven Email Agents"
+- **Authors**: Jiangrong Wu, Yuhong Nan, Jianliang Wu, Zitong Yao, Zibin Zheng
+- **Published**: July 3, 2025
+- **Key Findings**: 
+  - The paper examines security vulnerabilities in LLM email agents that autonomously manage and respond to emails.
+  - Researchers proposed the Email Agent Hijacking (EAH) attack, which can override original prompts and allow attackers to remotely control email agents.
+  - In their evaluation across 14 agent frameworks, 63 apps, 12 LLMs, and 20 email services (generating 1,404 email agent instances), all instances were successfully hijacked.
+  - On average, only 2.03 attack attempts were needed to gain control of an agent, with some LLMs requiring as few as 1.23 attempts.
+  - This highlights significant security concerns as agentic LLMs become more prevalent in email and communication applications.
+
+### Paper 2: "A Survey of Large Language Model Agents for Question Answering"
+- **Author**: Murong Yue
+- **Published**: March 24, 2025
+- **Key Findings**:
+  - This survey paper explores how LLM-based agents enhance question answering (QA) capabilities compared to traditional approaches.
+  - Unlike traditional agents that require substantial data and struggle with generalization, LLM-based agents leverage advanced language models as their core reasoning engine.
+  - The paper systematically reviews the design of LLM agents for QA across key stages: planning, question understanding, information retrieval, and answer generation.
+  - It highlights how these agents achieve superior QA results by enabling interaction with external environments, going beyond what naive LLM QA systems can accomplish.
+
+## Implications
+The research indicates both promising capabilities and concerning vulnerabilities in agentic LLMs. As these systems become more autonomous and integrated into critical applications like email management and information retrieval, addressing security vulnerabilities becomes increasingly important. At the same time, their enhanced ability to understand complex queries, retrieve relevant information, and generate accurate answers represents a significant advancement in AI assistance capabilities.
+
+This exploration suggests that agentic LLMs represent a frontier in AI development that combines remarkable utility with important security and ethical considerations that must be addressed as the technology continues to evolve.

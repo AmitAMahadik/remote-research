@@ -1,0 +1,53 @@
+{
+  "1601.00184v1": {
+    "title": "The Security of WebRTC",
+    "authors": [
+      "Ben Feher",
+      "Lior Sidi",
+      "Asaf Shabtai",
+      "Rami Puzis"
+    ],
+    "summary": "WebRTC is an API that allows users to share streaming information, whether it\nis text, sound, video or files. It is supported by all major browsers and has a\nflexible underlying infrastructure. In this study we review current WebRTC\nstructure and security in the contexts of communication disruption,\nmodification and eavesdropping. In addition, we examine WebRTC security in a\nfew representative scenarios, setting up and simulating real WebRTC\nenvironments and attacks.",
+    "pdf_url": "http://arxiv.org/pdf/1601.00184v1",
+    "published": "2016-01-02"
+  },
+  "1605.08805v1": {
+    "title": "Fingerprintability of WebRTC",
+    "authors": [
+      "David Fifield",
+      "Mia Gil Epner"
+    ],
+    "summary": "We examine WebRTC's suitability as a means of Internet censorship\ncircumvention. WebRTC is a framework and suite of protocols for peer-to-peer\ncommunication between web browsers. We analyze the implementation differences\nin instantiations of WebRTC that make it possible to \"fingerprint\"\nimplementations--potentially distinguishing circumvention-related uses from\nordinary ones. This question is relevant to Snowflake, an upcoming\ncircumvention system that uses WebRTC to turn web browsers into temporary\npeer-to-peer proxies. We conduct a manual analysis of WebRTC-using applications\nin order to map the space of distinguishing implementation features. We run a\nfingerprinting script on a day's worth of network traffic in order to quantify\nWebRTC's prevalence and diversity. Throughout, we find pitfalls that indicate\nthat resisting fingerprinting in WebRTC is likely to be non-trivial.",
+    "pdf_url": "http://arxiv.org/pdf/1605.08805v1",
+    "published": "2016-05-27"
+  },
+  "2206.07685v1": {
+    "title": "Decentralized WebRCT P2P network using Kademlia",
+    "authors": [
+      "Ryle Zhou"
+    ],
+    "summary": "Web Real-Time Communication (WebRTC) is a new standard and industry effort\nthat extends the web browsing model. For the first time, browsers are able to\ndirectly exchange real-time media with other browsers in a peer-to-peer\nfashion. Before WebRTC was introduced, it was cumbersome to build smooth chat\nand video applications, users often experience unstable connections, blurry\nvideos, and unclear sounds. WebRTC's peer-to-peer communication paradigm\nestablishes the real-time connection between browsers using the SIP(Session\nInitiation Protocol) Trapezoid. A wide set of protocols are bundled in WebRTC\nAPI, such as connection management, encoding/decoding negotiation, media\ncontrol, selection and control, firewall and NAT element traversal, etc.\nHowever, almost all current WebRTC applications are using centralized signaling\ninfrastructure which brings the problems of scalability, stability, and\nfault-tolerance. In this paper, I am presenting a decentralized architecture by\nintroducing the Kademlia network into WebRTC to reduce the need for a\ncentralized signaling service for WebRTC.",
+    "pdf_url": "http://arxiv.org/pdf/2206.07685v1",
+    "published": "2022-06-15"
+  },
+  "2206.12762v1": {
+    "title": "SnoW: Serverless n-Party calls over WebRTC",
+    "authors": [
+      "Thomas Sandholm"
+    ],
+    "summary": "We present a novel WebRTC communication system capable of hosting multi-party\naudio and video conferencing sessions without a media server. We implement\nvarious communication models based on the needs and capabilities of the\ncommunicating parties, and show that we can construct the equivalent of Mesh,\nSFU, and MCU WebRTC networks in our peer-to-peer architecture. In our\nevaluation we conclude that using a limited number of merged streams can\nimprove the user experience significantly, in particular if low-resource\ndevices are involved.",
+    "pdf_url": "http://arxiv.org/pdf/2206.12762v1",
+    "published": "2022-06-26"
+  },
+  "1701.09182v2": {
+    "title": "Analysis of challenges faced by WebRTC videoconferencing and a remedial architecture",
+    "authors": [
+      "Maruf Pasha",
+      "Furrakh Shahzad",
+      "Arslan Ahmad"
+    ],
+    "summary": "Lately, World Wide Web came up with an evolution in the niche of\nvideoconference applications. Latest technologies give browsers a capacity to\ninitiate real-time communications. WebRTC is one of the free and open source\nprojects that aim at providing the users freedom to enjoy real-time\ncommunications, and it does so by following and redefining the standards.\nHowever, WebRTC is still a new project and it lacks some high-end\nvideoconferencing features such as media mixing, recording of a session and\ndifferent network conditions adaptation. This paper is an attempt at analyzing\nthe shortcomings and challenges faced by WebRTC and proposing a Multipoint\nControl Unit or traditional communications entity based architecture as a\nsolution.",
+    "pdf_url": "http://arxiv.org/pdf/1701.09182v2",
+    "published": "2017-01-01"
+  }
+}

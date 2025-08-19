@@ -1,0 +1,92 @@
+{
+  "2410.07553v2": {
+    "title": "COMMA: A Communicative Multimodal Multi-Agent Benchmark",
+    "authors": [
+      "Timothy Ossowski",
+      "Jixuan Chen",
+      "Danyal Maqbool",
+      "Zefan Cai",
+      "Tyler Bradshaw",
+      "Junjie Hu"
+    ],
+    "summary": "The rapid advances of multimodal agents built on large foundation models have\nlargely overlooked their potential for language-based communication between\nagents in collaborative tasks. This oversight presents a critical gap in\nunderstanding their effectiveness in real-world deployments, particularly when\ncommunicating with humans. Existing agentic benchmarks fail to address key\naspects of inter-agent communication and collaboration, particularly in\nscenarios where agents have unequal access to information and must work\ntogether to achieve tasks beyond the scope of individual capabilities. To fill\nthis gap, we introduce a novel benchmark designed to evaluate the collaborative\nperformance of multimodal multi-agent systems through language communication.\nOur benchmark features a variety of scenarios, providing a comprehensive\nevaluation across four key categories of agentic capability in a communicative\ncollaboration setting. By testing both agent-agent and agent-human\ncollaborations using open-source and closed-source models, our findings reveal\nsurprising weaknesses in state-of-the-art models, including proprietary models\nlike GPT-4o. Some of these models struggle to outperform even a simple random\nagent baseline in agent-agent collaboration and only surpass the random\nbaseline when a human is involved.",
+    "pdf_url": "http://arxiv.org/pdf/2410.07553v2",
+    "published": "2024-10-10"
+  },
+  "2310.10634v1": {
+    "title": "OpenAgents: An Open Platform for Language Agents in the Wild",
+    "authors": [
+      "Tianbao Xie",
+      "Fan Zhou",
+      "Zhoujun Cheng",
+      "Peng Shi",
+      "Luoxuan Weng",
+      "Yitao Liu",
+      "Toh Jing Hua",
+      "Junning Zhao",
+      "Qian Liu",
+      "Che Liu",
+      "Leo Z. Liu",
+      "Yiheng Xu",
+      "Hongjin Su",
+      "Dongchan Shin",
+      "Caiming Xiong",
+      "Tao Yu"
+    ],
+    "summary": "Language agents show potential in being capable of utilizing natural language\nfor varied and intricate tasks in diverse environments, particularly when built\nupon large language models (LLMs). Current language agent frameworks aim to\nfacilitate the construction of proof-of-concept language agents while\nneglecting the non-expert user access to agents and paying little attention to\napplication-level designs. We present OpenAgents, an open platform for using\nand hosting language agents in the wild of everyday life. OpenAgents includes\nthree agents: (1) Data Agent for data analysis with Python/SQL and data tools;\n(2) Plugins Agent with 200+ daily API tools; (3) Web Agent for autonomous web\nbrowsing. OpenAgents enables general users to interact with agent\nfunctionalities through a web user interface optimized for swift responses and\ncommon failures while offering developers and researchers a seamless deployment\nexperience on local setups, providing a foundation for crafting innovative\nlanguage agents and facilitating real-world evaluations. We elucidate the\nchallenges and opportunities, aspiring to set a foundation for future research\nand development of real-world language agents.",
+    "pdf_url": "http://arxiv.org/pdf/2310.10634v1",
+    "published": "2023-10-16"
+  },
+  "2408.15971v1": {
+    "title": "BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems",
+    "authors": [
+      "Wei Wang",
+      "Dan Zhang",
+      "Tao Feng",
+      "Boyan Wang",
+      "Jie Tang"
+    ],
+    "summary": "Large Language Models (LLMs) are becoming increasingly powerful and capable\nof handling complex tasks, e.g., building single agents and multi-agent\nsystems. Compared to single agents, multi-agent systems have higher\nrequirements for the collaboration capabilities of language models. Many\nbenchmarks are proposed to evaluate their collaborative abilities. However,\nthese benchmarks lack fine-grained evaluations of LLM collaborative\ncapabilities. Additionally, multi-agent collaborative and competitive scenarios\nare ignored in existing works. To address these two problems, we propose a\nbenchmark, called BattleAgentBench, which defines seven sub-stages of three\nvarying difficulty levels and conducts a fine-grained evaluation of language\nmodels in terms of single-agent scenario navigation capabilities, paired-agent\ntask execution abilities, and multi-agent collaboration and competition\ncapabilities. We conducted extensive evaluations on leading four closed-source\nand seven open-source models. Experimental results indicate that API-based\nmodels perform excellently on simple tasks but open-source small models\nstruggle with simple tasks. Regarding difficult tasks that require\ncollaborative and competitive abilities, although API-based models have\ndemonstrated some collaborative capabilities, there is still enormous room for\nimprovement.",
+    "pdf_url": "http://arxiv.org/pdf/2408.15971v1",
+    "published": "2024-08-28"
+  },
+  "2312.02519v1": {
+    "title": "Creative Agents: Empowering Agents with Imagination for Creative Tasks",
+    "authors": [
+      "Chi Zhang",
+      "Penglin Cai",
+      "Yuhui Fu",
+      "Haoqi Yuan",
+      "Zongqing Lu"
+    ],
+    "summary": "We study building embodied agents for open-ended creative tasks. While\nexisting methods build instruction-following agents that can perform diverse\nopen-ended tasks, none of them demonstrates creativity -- the ability to give\nnovel and diverse task solutions implicit in the language instructions. This\nlimitation comes from their inability to convert abstract language instructions\ninto concrete task goals in the environment and perform long-horizon planning\nfor such complicated goals. Given the observation that humans perform creative\ntasks with the help of imagination, we propose a class of solutions for\ncreative agents, where the controller is enhanced with an imaginator that\ngenerates detailed imaginations of task outcomes conditioned on language\ninstructions. We introduce several approaches to implementing the components of\ncreative agents. We implement the imaginator with either a large language model\nfor textual imagination or a diffusion model for visual imagination. The\ncontroller can either be a behavior-cloning policy learned from data or a\npre-trained foundation model generating executable codes in the environment. We\nbenchmark creative tasks with the challenging open-world game Minecraft, where\nthe agents are asked to create diverse buildings given free-form language\ninstructions. In addition, we propose novel evaluation metrics for open-ended\ncreative tasks utilizing GPT-4V, which holds many advantages over existing\nmetrics. We perform a detailed experimental analysis of creative agents,\nshowing that creative agents are the first AI agents accomplishing diverse\nbuilding creation in the survival mode of Minecraft. Our benchmark and models\nare open-source for future research on creative agents\n(https://github.com/PKU-RL/Creative-Agents).",
+    "pdf_url": "http://arxiv.org/pdf/2312.02519v1",
+    "published": "2023-12-05"
+  },
+  "2309.07870v3": {
+    "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+    "authors": [
+      "Wangchunshu Zhou",
+      "Yuchen Eleanor Jiang",
+      "Long Li",
+      "Jialong Wu",
+      "Tiannan Wang",
+      "Shi Qiu",
+      "Jintian Zhang",
+      "Jing Chen",
+      "Ruipu Wu",
+      "Shuai Wang",
+      "Shiding Zhu",
+      "Jiyu Chen",
+      "Wentao Zhang",
+      "Xiangru Tang",
+      "Ningyu Zhang",
+      "Huajun Chen",
+      "Peng Cui",
+      "Mrinmaya Sachan"
+    ],
+    "summary": "Recent advances on large language models (LLMs) enable researchers and\ndevelopers to build autonomous language agents that can automatically solve\nvarious tasks and interact with environments, humans, and other agents using\nnatural language interfaces. We consider language agents as a promising\ndirection towards artificial general intelligence and release Agents, an\nopen-source library with the goal of opening up these advances to a wider\nnon-specialist audience. Agents is carefully engineered to support important\nfeatures including planning, memory, tool usage, multi-agent communication, and\nfine-grained symbolic control. Agents is user-friendly as it enables\nnon-specialists to build, customize, test, tune, and deploy state-of-the-art\nautonomous language agents without much coding. The library is also\nresearch-friendly as its modularized design makes it easily extensible for\nresearchers. Agents is available at https://github.com/aiwaves-cn/agents.",
+    "pdf_url": "http://arxiv.org/pdf/2309.07870v3",
+    "published": "2023-09-14"
+  }
+}

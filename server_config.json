@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/amit.mahadik/repos/MCPDemo/mcp_server/"
+            ]
+        },
+        "research": {
+            "command": "uv",
+            "args": ["--directory",
+            "/Users/amit.mahadik/repos/MCPDemo/mcp_server/",
+            "run", 
+            "research_server.py"]
+        },
+        "fetch": {
+            "command": "uvx",
+            "args": ["mcp-server-fetch"]
+        }
+    }
+}
+  
